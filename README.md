@@ -49,56 +49,6 @@ docker-compose up --build
 - Frontend: [http://localhost:3000](http://localhost:3000)
 - Backend: [http://localhost:3001](http://localhost:3001)
 
-## Project Structure
-
-### Backend
-Located in the /backend directory:
-/backend
-  src
-    config
-      database.ts
-    controllers
-      itemController.ts
-    models
-      Item.ts          # TypeORM model for the Items table
-    routes
-      itemRoutes.ts    # API routes
-    services
-      itemService.ts   # Handles business logic for items
-    index.ts           # Main entry point for the server
-  Dockerfile
-  package.json
-
-
-### Frontend
-Located in the /frontend directory:
-/frontend
-  public                 # Static files
-  src
-    components
-      Cart.tsx             # Handles the shopping cart display
-      ItemList.tsx         # Displays a list of items
-      OrderConfirmation.tsx # Shows order confirmation details
-    pages
-      CartPage.tsx         # Page showing the cart
-      Home.tsx             # Page showing all items
-      OrderConfirmationPage.tsx # Page for order details
-    services
-      itemService.ts       # Fetches items from backend
-      orderService.ts      # Submits orders to backend
-    App.tsx                  # React component
-    index.tsx                # React entry point
-  Dockerfile
-  package.json
-
-
-### Database
-Located in the /database directory:
-/database
-  init.sql                # Script to seed the database with initial data
-  docker-compose.yml
-
-
 ### Root Directory
 /webshop
   /database
@@ -122,34 +72,31 @@ Located in the /database directory:
 
 ### With Docker
 - Open Command Prompt or PowerShell.
-- Build and run all containers:
-
+- **Build and run all containers:**
   docker-compose up --build
 
-- Stop containers:
+- **Stop containers:**
   docker-compose down
   
-  - Install Backend Dependencies
+  - **Install Backend Dependencies**
   In the /backend directory, run:
 		- npm install
-  - Install Frontend Dependencies
+  - **Install Frontend Dependencies**
   In the /frontend directory, run:
 		- npm install
   - then in backend:
 		- npm run start
   This will start the backend server on http://localhost:3001.
 
-  - Start the Frontend
+  - **Start the Frontend**
   In the /frontend directory, run:
 		- npm run start
   This will start the frontend server on http://localhost:3000.
-  **Run Locally (Without Docker)**
-
-    
-  Clone the Repository:**
+  # Run Locally (Without Docker)
+   **Clone the Repository:**
    git clone https://github.com/Klaszlo5/webshop.git
    cd webshop
-Set Up the Database:
+# Set Up the Database:
 
 1. Install and start PostgreSQL.
 2. Run the init.sql script located in /database to seed the database.
