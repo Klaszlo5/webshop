@@ -154,17 +154,17 @@ Run the init.sql script located in /database to seed the database.
 
 Install Dependencies:
 Backend:
-cd backend
-npm install
-npm run start
+	**cd backend**
+	**npm install**
+	**npm run start**
 Frontend:
-cd frontend
-npm install
-npm run start
+	**cd frontend**
+	**npm install**
+	**npm run start**
 
 Access the App:
-Frontend: http://localhost:3000
-Backend: http://localhost:3001
+Frontend: **http://localhost:3000**
+Backend: **http://localhost:3001**
 
 ## Error Handling
 
