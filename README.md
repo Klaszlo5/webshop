@@ -143,10 +143,10 @@ Located in the /database directory:
   In the /frontend directory, run:
 		- npm run start
   This will start the frontend server on http://localhost:3000.
-	###Run Locally (Without Docker)
-  Clone the Repository:
-  - git clone https://github.com/Klaszlo5/webshop.git
-  - cd webshop
+	#  Run Locally (Without Docker)
+  **Clone the Repository:**
+   git clone https://github.com/Klaszlo5/webshop.git
+   cd webshop
 Set Up the Database:
 
 1. Install and start PostgreSQL.
