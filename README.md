@@ -143,16 +143,16 @@ Located in the /database directory:
   In the /frontend directory, run:
 		- npm run start
   This will start the frontend server on http://localhost:3000.
-Run Locally (Without Docker)
+	###Run Locally (Without Docker)
   Clone the Repository:
   - git clone https://github.com/Klaszlo5/webshop.git
   - cd webshop
 Set Up the Database:
 
-Install and start PostgreSQL.
-Run the init.sql script located in /database to seed the database.
+1. Install and start PostgreSQL.
+2. Run the init.sql script located in /database to seed the database.
 
-Install Dependencies:
+	- Install Dependencies:
 Backend:
 	**cd backend**
 	**npm install**
