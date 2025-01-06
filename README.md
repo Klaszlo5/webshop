@@ -144,6 +144,8 @@ Located in the /database directory:
 		- npm run start
   This will start the frontend server on http://localhost:3000.
   **Run Locally (Without Docker)**
+
+    
   Clone the Repository:**
    git clone https://github.com/Klaszlo5/webshop.git
    cd webshop
