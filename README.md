@@ -35,13 +35,11 @@ A simple webshop application built using React, TypeScript, Node.js, and Postgre
 ## Setup
 
 ### Clone the Repository:
-bash
 git clone https://github.com/Klaszlo5/webshop.git
 cd webshop
 
 
 ### Start the Application with Docker Compose:
-bash
 docker-compose up --build
 
 
@@ -96,11 +94,13 @@ docker-compose up --build
    **Clone the Repository:**
    git clone https://github.com/Klaszlo5/webshop.git
    cd webshop
+
+  
 # Set Up the Database:
 
 1. Install and start PostgreSQL.
 2. Run the init.sql script located in /database to seed the database.
-
+psql -U <your-username> -d webshop -f /path/to/init.sql
 	- Install Dependencies:
 Backend:
 	**cd backend**
@@ -115,7 +115,19 @@ Access the App:
 Frontend: **http://localhost:3000**
 Backend: **http://localhost:3001**
 
-## Error Handling
+**Directory structure:**
+webshop/
+	|-- backend/         
+	|-- frontend/        
+	|-- database/         
+	|-- docker-compose.yml
+	|-- README.md
+
+## Common Issues:
+Docker Command Fails:
+	Ensure Docker is installed and running.
+	Check for conflicts on ports 3000 and 3001. Stop any other processes using these ports.
+
 
 ### Frontend
 - Displays errors for failed API calls.
