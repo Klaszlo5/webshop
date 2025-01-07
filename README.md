@@ -104,13 +104,13 @@ psql -U <your-username> -d webshop -f /path/to/init.sql
 	- Install Dependencies:
  
 # Backend:
-	**cd backend**
-	**npm install**
-	**npm run start**
+	cd backend
+	npm install
+	npm run start
 # Frontend:
-	**cd frontend**
-	**npm install**
-	**npm run start**
+	cd frontend
+	npm install
+	npm run start
 
 Access the App:
 Frontend: **http://localhost:3000**
