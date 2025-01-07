@@ -96,17 +96,18 @@ docker-compose up --build
    cd webshop
 
   
-# Set Up the Database:
+### Set Up the Database:
 
-1. Install and start PostgreSQL.
-2. Run the init.sql script located in /database to seed the database.
+# 1. Install and start PostgreSQL.
+# 2. Run the init.sql script located in /database to seed the database.
 psql -U <your-username> -d webshop -f /path/to/init.sql
 	- Install Dependencies:
-Backend:
+ 
+# Backend:
 	**cd backend**
 	**npm install**
 	**npm run start**
-Frontend:
+# Frontend:
 	**cd frontend**
 	**npm install**
 	**npm run start**
