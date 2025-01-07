@@ -47,17 +47,6 @@ docker-compose up --build
 - Frontend: [http://localhost:3000](http://localhost:3000)
 - Backend: [http://localhost:3001](http://localhost:3001)
 
-### Root Directory
-/webshop
-  /database
-  /frontend
-  /backend
-  .dockerignore
-  .gitignore
-  docker-compose.yml      # Main Docker Compose configuration
-  README.md               # Project documentation
-
-
 ## API Endpoints
 
 ### Items
@@ -99,7 +88,7 @@ docker-compose up --build
 ### Set Up the Database:
 
 # 1. Install and start PostgreSQL.
-# 2. Run the init.sql script located in /database to seed the database.
+Run the init.sql script located in /database to seed the database.
 psql -U <your-username> -d webshop -f /path/to/init.sql
 	- Install Dependencies:
  
