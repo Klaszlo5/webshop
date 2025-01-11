@@ -3,7 +3,6 @@
 A simple webshop application built using React, TypeScript, Node.js, and PostgreSQL. This project is fully dockerized for easy deployment and testing.
 
 ## Features
-
 ### Frontend
 - **React with TypeScript** for building the UI.
 - **Pages**:
